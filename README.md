@@ -65,6 +65,7 @@ The Avg_Utilization_Ratio represents how much of the available credit the custom
 Based on this project, below are insights and actionable business recommendations for Thera Bank’s credit card attrition problem:
 
 **Insights**
+
 A significant portion of attrited customers falls within lower income brackets and less education, such as high school or uneducated groups. These segments may be more sensitive to fees or credit limitations, influencing their decision to leave.
 
 Higher attrition rates are seen among certain card types, particularly lower-tier cards.
@@ -79,6 +80,7 @@ Features with high importance included transaction count and amount, average uti
 
 
 **Actionable Business Recommendations**
+
 **Targeted Retention Campaigns:**
 - For lower-income groups, consider promotional strategies that mitigate costs, such as fee reductions or introductory offers that highlight the value of card ownership. This may improve retention for cost-sensitive customers.
 - Engagement Programs for Low Activity Users: Implement incentive programs (e.g., rewards for frequent usage, spending-based bonuses) for customers with lower transaction counts or inactive months to increase engagement and reduce attrition.
