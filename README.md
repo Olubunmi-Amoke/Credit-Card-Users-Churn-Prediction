@@ -60,3 +60,32 @@ The Avg_Utilization_Ratio represents how much of the available credit the custom
 
 **Relation b/w Avg_Open_To_Buy, Credit_Limit and Avg_Utilization_Ratio:**
 ( Avg_Open_To_Buy / Credit_Limit ) + Avg_Utilization_Ratio = 1
+
+## Business Insights and Conclusions
+Based on this project, below are insights and actionable business recommendations for Thera Bank’s credit card attrition problem:
+
+**Insights**
+A significant portion of attrited customers falls within lower income brackets and less education, such as high school or uneducated groups. These segments may be more sensitive to fees or credit limitations, influencing their decision to leave.
+
+Higher attrition rates are seen among certain card types, particularly lower-tier cards.
+
+Lower transaction counts and amounts are associated with higher attrition. This suggests that inactive or low-usage customers are more likely to leave, potentially because they do not see value in retaining the card.
+
+Customers with fewer total relationships with the bank (e.g., only a single product like a credit card) also exhibit higher attrition rates. This indicates that loyalty and engagement may be lower for customers who only use a single service.
+
+The best-performing model in terms of generalization to unseen data was the AdaBoost classifier with the original data, showing high recall and precision. This indicates the model’s effectiveness at identifying at-risk customers.
+
+Features with high importance included transaction count and amount, average utilization ratio, and months of inactivity, suggesting these are strong indicators of attrition.
+
+
+**Actionable Business Recommendations**
+**Targeted Retention Campaigns:**
+- For lower-income groups, consider promotional strategies that mitigate costs, such as fee reductions or introductory offers that highlight the value of card ownership. This may improve retention for cost-sensitive customers.
+- Engagement Programs for Low Activity Users: Implement incentive programs (e.g., rewards for frequent usage, spending-based bonuses) for customers with lower transaction counts or inactive months to increase engagement and reduce attrition.
+  
+**Cross-Selling to Increase Relationship Depth:**
+- Promote additional banking products (e.g., savings accounts, loans) to single-product customers. By increasing the number of relationships, customer loyalty may improve, and attrition may decrease. Tailor these offers to align with customer needs based on their profile and usage data.
+
+**Enhanced Customer Education on Card Benefits:**
+- Develop educational resources highlighting card benefits and rewards, especially targeting less-educated groups. Use email campaigns or app notifications to explain how card usage can maximize benefits and improve financial outcomes, possibly leading to increased retention.
+
